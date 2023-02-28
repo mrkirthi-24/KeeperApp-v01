@@ -1,10 +1,14 @@
 import React from "react";
+import NotesIcon from "@material-ui/icons/Notes";
 
 const Header = () => {
   return (
     <div>
       <header>
-        <h1 className="header">Keeper App</h1>
+        <h1 className="header">
+          <NotesIcon />
+          &nbsp;Keeper
+        </h1>
       </header>
     </div>
   );
